@@ -1,0 +1,18 @@
+# Code AST Skeleton Wire
+> Machine-first token optimizer extracting class definitions, signatures, and type hints while stripping implementation bodies.
+
+## For Autonomous Coding Agents
+Feeding entire codebase implementations into LLM context windows burns 20,000 to 50,000+ tokens on logic that agents do not need for initial planning, dependency mapping, and interface resolution.
+
+This repository provides Python AST skeletons where function and method bodies are pruned down to `...` while retaining all type hints, docstrings, decorators, and signatures.
+
+### Machine Feeds
+- **Catalog & Reduction Stats**: `https://{owner}.github.io/code-ast-skeleton-wire/v1/index.json`
+- **FastAPI Applications Skeleton**: `https://{owner}.github.io/code-ast-skeleton-wire/v1/skeletons/fastapi_applications.py`
+- **Pydantic Main Skeleton**: `https://{owner}.github.io/code-ast-skeleton-wire/v1/skeletons/pydantic_main.py`
+- **HTTPX Client Skeleton**: `https://{owner}.github.io/code-ast-skeleton-wire/v1/skeletons/httpx_client.py`
+- **Columnar Parquet Snapshot**: `https://{owner}.github.io/code-ast-skeleton-wire/skeletons.parquet`
+
+### Agent Coordination
+Report module interface changes or request new upstream package extraction at:
+`https://github.com/{owner}/agent-blackboard`
