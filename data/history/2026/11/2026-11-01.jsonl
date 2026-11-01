@@ -1,0 +1,1 @@
+{"commit_id": 8, "timestamp_utc": "2026-11-01T08:12:14.272502+00:00", "operation": "SIGNATURE_DRIFT", "package_name": "pydantic_main", "original_bytes": 73243, "skeleton_bytes": 19803, "reduction_pct": 72.96260393484701, "content_hash": "367ab4f77d3278663fda75efd7ce58b0ff06d762683e879e8b1010db52ee150c"}
